@@ -14,7 +14,7 @@ const options = {
 }
 
 app.get("/new-fargate", (req, res) => {
-  const newreq = https.request(options, res1 => {
+  const newreq = httpRequest.request(options, res1 => {
     console.log(`statusCode: ${res1.statusCode}`)
     res1.on('data', d => {
       process.stdout.write(d);
