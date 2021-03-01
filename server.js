@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/fargate", (req, res) => {
+app.get("/new-fargate", (req, res) => {
   res.send("Hello Automated build!");
 });
 
