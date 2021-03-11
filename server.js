@@ -7,7 +7,7 @@ app.get("/ec2", (req, res) => {
   res.send("Hello EC2 build!");
 });
 
-app.get("/new-route", (req, res) => {
+app.get("/api/new-route", (req, res) => {
   res.send("Hello Prod!");
 });
 
